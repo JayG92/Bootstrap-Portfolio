@@ -5,70 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Bootswatch Theme -->
+    <link rel="stylesheet" href="assets/css/bootswatch.css">
+    <!-- Personal CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <title>Portfolio</title>
+</head>
+<title>Portfolio</title>
 </head>
 
 
 
 <body>
-
-
-    <style>
-        /* CSS styles */
-        * {
-            box-sizing: border-box;
-        }
-
-        .h1 {
-            background: rgba(140, 167, 172, 0.733);
-            border-radius: 10%;
-        }
-
-        .nav {
-            background: rgba(140, 167, 172, 0.733);
-            border-radius: 3%;
-        }
-
-        .container {
-            max-width: 960px;
-        }
-
-        footer {
-            background-color: rgba(140, 167, 172, 0.733);
-            text-align: center;
-            /* border-radius: 5%; */
-            height: 50px;
-            padding: 10px;
-        }
-
-        .picture {
-
-            width: 274px;
-            margin: 20px 0 25px;
-            overflow: auto;
-
-        }
-
-        .main-section {
-            max-width: 960px;
-            padding: 30px;
-            margin: 18px 40px;
-            background: rgba(140, 167, 172, 0.733);
-            border-radius: 2%;
-        }
-    </style>
-
-    <!-- creat rows and columns! -->
-
-    <nav class="navbar navbar-light bg-light">
-        <div class="container">
-            <span class="navbar-brand mb-0 h1">Jay Guevara</span>
-    </nav>
 
     <!-- Nav bar start -->
     <div class="container">
@@ -77,65 +39,74 @@
                 <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="resume.html">Resume</a>
             </li>
         </ul>
         <!-- </div> -->
         <!-- nav bar end-->
         <!-- main section for imaged -->
         <div class="main-section">
-            <h2>Portfolio</h2>
+            <h2 class="portName">Portfolio</h2>
             <hr>
             <!-- first row of images -->
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-6">
 
-                    <img class="img thumbnail" src="http://via.placeholder.com/250" alt="Placeholder">
-                    <!-- <h3>test</h3> -->
-                    <a class="nav-link active" href="https://jayg92.github.io/TriviaGame/">Trivia</a>
+                    <a href="https://pacific-earth-73860.herokuapp.com/">
+                        <img class=" imgThumbnail"
+                            src="https://user-images.githubusercontent.com/52174242/66066813-1e709980-e4ff-11e9-8f54-8c67e46b10b0.png"
+                            alt="Placeholder">
+                        <!-- <h3>test</h3> -->
+                        <a class="nav-link active"
+                            href="https://pacific-earth-73860.herokuapp.com/">THIS.SOCIAL.MEDIA</a>
                 </div>
-                <div class="col-lg-4">
-                    <img class="img thumbnail" src="http://via.placeholder.com/250" alt="Placeholder">
+                <div class="col-lg-6">
+
+                    <a href="https://agile-bayou-95483.herokuapp.com/">
+                        <img class="imgThumbnail"
+                            src="https://user-images.githubusercontent.com/52174242/66066647-c33ea700-e4fe-11e9-821f-22f7edb7c881.png"
+                            alt="Alititude Logo"> </a>
                     <!-- <h3>test</h3> -->
-                    <a class="nav-link active" href="https://jayg92.github.io/GifTastic/">Giftasic</a>
+                    <a class="nav-link active" href="https://agile-bayou-95483.herokuapp.com/">Restaurant Web Design</a>
                 </div>
             </div>
             <!-- end of 1st row -->
             <div class="row">
-                <div class=" col-lg-4">
-                    <img class="img thumbnail" src="http://via.placeholder.com/250" alt="Placeholder">
-                    <!-- <h3>test</h3> -->
-                    <a class="nav-link active" href="https://jayg92.github.io/unit-4-game/">Unit-4-Game</a>
+                <div class=" col-lg-6">
+                    <a href="https://fast-tor-36349.herokuapp.com/">
+                        <img class="imgThumbnail"
+                            src="https://user-images.githubusercontent.com/52174242/66067346-3eed2380-e500-11e9-8c1b-5b2dcf2c4ffa.png"
+                            alt="Placeholder">
+                        <!-- <h3>test</h3> -->
+                        <a class="nav-link active" href="https://fast-tor-36349.herokuapp.com/">Click Game</a>
                 </div>
-                <div class="col-lg-4">
-                    <img class="img thumbnail" src="http://via.placeholder.com/250" alt="Placeholder">
-                    <!-- <h3>test</h3> -->
-                    <a class="nav-link active" href="https://jayg92.github.io/Project1Crypto/.">Project 1 Crypto</a>
+                <div class="col-lg-6">
+                    <a href="https://jayg92.github.io/Project1Crypto/.">
+                        <img class="imgThumbnail"
+                            src="https://user-images.githubusercontent.com/52174242/66067040-a0f95900-e4ff-11e9-8dd0-1906fb34c0f0.png"
+                            alt="Placeholder">
+                        <!-- <h3>test</h3> -->
+                        <a class="nav-link active" href="https://jayg92.github.io/Project1Crypto/.">Project 1 Crypto</a>
                 </div>
             </div>
             <!-- end of 2nd row -->
 
-            <div class="row">
-                <div class="col-lg-4">
+            <!-- <div class="row">
+                <div class="col-lg-6">
                     <img class="img thumbnail" src="http://via.placeholder.com/250" alt="Placeholder">
-                    <h3>test</h3>
+                    <a class="nav-link active" href="https://jayg92.github.io/liri-node-app/.">LIRI BO </a>
                 </div>
-                <div class="col-lg-4">
+
+                <div class="col-lg-6">
                     <img class="img thumbnail" src="http://via.placeholder.com/250" alt="Placeholder">
-                    <h3>test</h3>
+                    <a class="nav-link active" href="https://fast-tor-36349.herokuapp.com/.">Clicky Game</a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
-
-    <!-- cant figure out how to align images properly -->
-    <!-- main section for imaged -->
-
-
-
 
     </div>
 
@@ -147,3 +118,52 @@
 <footer>Copyright &copy</footer>
 
 </html>
+
+
+
+
+
+<!-- <style>
+    /* CSS styles */
+    * {
+        box-sizing: border-box;
+    }
+
+    .h1 {
+        background: rgba(140, 167, 172, 0.733);
+        border-radius: 10%;
+    }
+
+    .nav {
+        background: rgba(140, 167, 172, 0.733);
+        border-radius: 3%;
+    }
+
+    .container {
+        max-width: 960px;
+    }
+
+    footer {
+        background-color: rgba(140, 167, 172, 0.733);
+        text-align: center;
+        /* border-radius: 5%; */
+        height: 50px;
+        padding: 10px;
+    }
+
+    .picture {
+
+        width: 274px;
+        margin: 20px 0 25px;
+        overflow: auto;
+
+    }
+
+    .main-section {
+        max-width: 960px;
+        padding: 30px;
+        margin: 18px 40px;
+        background: rgba(140, 167, 172, 0.733);
+        border-radius: 2%;
+    }
+</style> -->

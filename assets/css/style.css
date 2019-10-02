@@ -1,0 +1,25 @@
+/* body{
+    background-image: url(https://user-images.githubusercontent.com/52174242/65989145-fa00b880-e43d-11e9-81e0-77a71cb452a1.png)
+} */
+
+
+.portName{
+    color: white;
+
+}
+
+.imgThumbnail {
+    height: 250px;
+    width: 250px;
+}
+
+.nameRes {
+    color: white;
+}
+
+.resume {
+    margin-left: 25%;
+    height: 60%;
+    width: 50%;
+    padding: 45px;
+}
